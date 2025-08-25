@@ -1,0 +1,16 @@
+@import 'variables';
+.footer {
+    background-color: $fondo;
+    color: $letra;
+    text-align: center;
+    font-family: "Source Serif 4", serif;
+    button {
+        font-size: 2rem;
+        margin: 0 0.5em;
+        background: none;
+        border: none;
+        box-shadow: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}
