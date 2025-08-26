@@ -1,0 +1,25 @@
+body.dark-mode {
+  background-color: $dark;
+  color: $light;
+}
+
+body.dark-mode header,
+body.dark-mode .navbar,
+body.dark-mode .footer {
+  background-color: $dark !important;
+  color: $light !important;
+}
+
+body.dark-mode .footer button,
+body.dark-mode .footer i,
+body.dark-mode .navbar i,
+body.dark-mode header .titulo,
+body.dark-mode .grid-item i {
+  color: $main !important; 
+}
+
+body.dark-mode .navbar .nav-link,
+body.dark-mode .navbar .navbar-brand,
+body.dark-mode .navbar .dropdown-item {
+  color: $main !important;
+}
